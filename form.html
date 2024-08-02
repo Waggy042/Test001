@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="main">
+  <div class="header">
+    <a href="#default" class="logo">Waggy-Tech</a>
+    <div class="header-right">
+      <a href="#home">Home</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+    </div>
+  </div>
+    <div class="form">
+    <form id="myForm" onsubmit="submitForm()">
+      <h2>LOGIN HERE</h2>
+          <label for="username">Username:</label>
+              <input type="text" name="" id="username" required>
+
+          <label for="email">Email:</label>
+              <input type="email" name="" id="email" required>
+
+          <label for="number">Number:</label>
+              <input type="number" name="" id="number" min="100" max="200" required>
+
+          <label for="password">Password:</label>
+              <input type="password" name="" id="password" minlength="8" maxlength="10" required>
+
+          <button type="submit" onclick="validateForm()">Validate</button>
+    </form>
+  </div>
+  <div class="text">
+    <h1>WELCOME TO MY WORLD</h1>
+    <p>If you have an interest in enhancing your digital skill <br>
+          this is the best place for you.</p>
+    <p>If you have an interest in enhancing your digital skill <br>
+          this is the best place for you.</p>
+      <button class="btn">Join Us</button>
+
+  </div>
+  </div>
+
+
+  <script src="./script5.js"></script>
+</body>
+</html>
